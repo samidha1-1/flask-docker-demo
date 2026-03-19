@@ -40,3 +40,10 @@ This project demonstrates how to containerize a simple Flask application using D
 ```bash
 docker build -t flask-app .
 
+```
+
+### Run the Container 
+
+```bash
+docker run -t -p 5000:5000 flask-mini:latest
+
