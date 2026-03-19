@@ -1,10 +1,10 @@
-# 🚀 Flask App with Multi-Stage Docker Deployment
+#  Flask App with Multi-Stage Docker Deployment
 
 This project demonstrates how to containerize a simple Flask application using Docker and optimize the image using a multi-stage Docker build. The application is deployed on an AWS EC2 instance and accessed via a web browser.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 - Built a simple Flask web application  
 - Containerized the application using Docker  
@@ -14,7 +14,7 @@ This project demonstrates how to containerize a simple Flask application using D
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python  
 - Flask  
@@ -24,7 +24,7 @@ This project demonstrates how to containerize a simple Flask application using D
 ---
 
 
-## ⚙️ How It Works
+##  How It Works
 
 1. Flask app runs on port 5000  
 2. Docker container is built using a multi-stage Dockerfile  
@@ -33,9 +33,10 @@ This project demonstrates how to containerize a simple Flask application using D
 
 ---
 
-## 🐳 Docker Setup
+##  Docker Setup
 
 ### Build the Docker image
 
 ```bash
 docker build -t flask-app .
+
